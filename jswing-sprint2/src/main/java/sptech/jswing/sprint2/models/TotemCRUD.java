@@ -9,7 +9,7 @@ import java.util.List;
 public class TotemCRUD {
     public Totem getTotemByToken(String token) {
 
-        Connection con = new Connection();
+        ConnectionMySQL con = new ConnectionMySQL();
         JdbcTemplate cursor = con.getConnection();
 
         List<Totem> validacao = cursor.query(String.format("SELECT * FROM totem as t JOIN componenteTotem as ct ON  t.idTotem = ct.fkTotem JOIN componente as c ON c.idComponente = ct.fkComponente;", token)
