@@ -19,7 +19,10 @@ import sptech.jswing.sprint2.controllers.Totem;
  * @author NauanaCoelhodosSanto
  */
 public class ScriptInserindoNoDocker {
-    public static void main(String[] args) {
+    
+    
+    
+    public static void insertMysql () {
         ConnectionMySQL connection = new ConnectionMySQL();
         JdbcTemplate con = connection.getConnection();
         

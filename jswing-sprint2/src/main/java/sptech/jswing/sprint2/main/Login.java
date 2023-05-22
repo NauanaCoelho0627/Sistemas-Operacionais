@@ -4,6 +4,7 @@ import com.github.britooo.looca.api.core.Looca;
 import com.github.britooo.looca.api.group.processador.Processador;
 import java.awt.Color;
 import sptech.jswing.sprint2.controllers.Totem;
+import sptech.jswing.sprint2.models.ScriptInserindoNoDocker;
 import sptech.jswing.sprint2.models.TotemCRUD;
 
 public class Login extends javax.swing.JFrame {
@@ -131,6 +132,8 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnConectarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConectarActionPerformed
+        ScriptInserindoNoDocker.insertMysql();
+        
         lblErro.setText("");
         TotemCRUD totemCrud = new TotemCRUD();
         Totem totem;
