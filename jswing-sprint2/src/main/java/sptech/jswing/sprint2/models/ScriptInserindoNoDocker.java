@@ -56,10 +56,10 @@ public class ScriptInserindoNoDocker {
         con.update(String.format("insert into registroComponente (valorUso, dataHotaCaptura, fkComponenteTotem) values("
                 + "null, null, '1');"));
         
-        //inserindo na tabela processoCPU
-        con.update(String.format("insert into processoCPU (valorUsoCPU, valorUsoMemoria, bytesUtilizados"
-                + "valorUsoMemoriaVirtual, fkRegistroComponente, fkComponenteTotem) values("
-                + "null, null, null, null, '1', '1');"));  
+//        //inserindo na tabela processoCPU
+//        con.update(String.format("insert into processoCPU (valorUsoCPU, valorUsoMemoria, bytesUtilizados"
+//                + "valorUsoMemoriaVirtual, fkRegistroComponente, fkComponenteTotem) values("
+//                + "null, null, null, null, '1', '1');"));  
         
     }
    
