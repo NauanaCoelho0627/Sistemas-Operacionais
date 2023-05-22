@@ -12,7 +12,7 @@ public class ConnectionMySQL {
     public ConnectionMySQL() {
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://100.26.187.124:3306/banco1?autoReconnect=true&useSSL=false");
+        dataSource.setUrl("jdbc:mysql://44.211.153.136:3306/banco1?autoReconnect=true&useSSL=false");
         dataSource.setUsername("root");
         dataSource.setPassword("urubu100");
         
