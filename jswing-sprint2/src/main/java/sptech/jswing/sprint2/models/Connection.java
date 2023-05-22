@@ -22,9 +22,11 @@ public class Connection {
         this.connection = new JdbcTemplate(dataSource);
     }
     
+    
     public JdbcTemplate getConnection() {
         System.out.println("Acessando o banco de dados!");
         return connection;
     }
+    
     
 }
