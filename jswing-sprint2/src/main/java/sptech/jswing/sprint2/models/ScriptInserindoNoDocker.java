@@ -22,7 +22,7 @@ public class ScriptInserindoNoDocker {
     
     
     
-    public static void insertMysql () {
+    public static void insertMysql() {
         ConnectionMySQL connection = new ConnectionMySQL();
         JdbcTemplate con = connection.getConnection();
         

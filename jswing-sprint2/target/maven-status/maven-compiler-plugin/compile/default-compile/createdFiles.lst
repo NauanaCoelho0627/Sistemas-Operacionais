@@ -12,5 +12,6 @@ sptech\jswing\sprint2\controllers\Janelas.class
 sptech\jswing\sprint2\controllers\MemoriaRam.class
 sptech\jswing\sprint2\main\Login$2.class
 sptech\jswing\sprint2\models\ConnectionMySQL.class
+sptech\jswing\sprint2\main\inserindoNoBanco.class
 sptech\jswing\sprint2\models\TotemCRUD.class
 sptech\jswing\sprint2\models\ScriptInserindoNoDocker.class
